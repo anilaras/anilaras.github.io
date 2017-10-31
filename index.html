@@ -11,6 +11,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		  <!-- Compiled and minified CSS -->
+          
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	</head>
@@ -36,22 +37,8 @@
 						</header>
 						
 						<hr />
-						<h2>Iletişim</h2>
-						<form id="iletisim" method="POST">
-<input type="text" name="isim" placeholder="İsminiz">
-<input type="email" name="_replyto" placeholder="E-posta adresiniz">
-<input type="hidden" name="_subject" value="İletişim Formu Dolduruldu" />
-<textarea name="mesaj" placeholder="Mesajınız"></textarea>
-<input type="text" name="_gotcha" style="display:none" />
-<input type="submit" value="Gönder">
-</form>
-<script>
-var iletisim = document.getElementById('iletisim');
-iletisim.setAttribute('action', '//formspree.io/' + 'anilaras1' + '@' + 'gmail' + '.' + 'com');
-</script>
-						</form>
-						<hr />
-						<!-- ############################################ -->
+						
+
 						<footer>
 							<ul class="icons">
 								<li><a href="https://github.com/anilaras/" class="fa fa-git">Github</a></li>
@@ -60,6 +47,30 @@ iletisim.setAttribute('action', '//formspree.io/' + 'anilaras1' + '@' + 'gmail' 
 								<li><a href="https://www.facebook.com/anilaras97" class="fa-facebook">Facebook</a></li>
 							</ul>
 						</footer>
+
+						<h2>İLETİŞİM FORMU</h2>
+						<form id="iletisim" method="POST">
+								<div class="field">
+								<input type="text" name="isim" placeholder="İSMİNİZ">
+								</div>
+								<div class="field">
+								<input type="email" name="_replyto" placeholder="E-POSTA ADRESİNİZ">
+								</div>
+								<div class="field">
+								<input type="hidden" name="_subject" value="İletişim Formu Dolduruldu" />
+								</div>
+								<div class="field">
+								<textarea name="mesaj" placeholder="MESAJINIZ"></textarea>
+								</div>
+								<div class="field">
+								<input type="text" name="_gotcha" style="display:none" />
+								</div>
+								<input type="submit" value="Gönder">
+								</form>
+								<script>
+								var iletisim = document.getElementById('iletisim');
+								iletisim.setAttribute('action', '//formspree.io/' + 'eposta' + '@' + 'adresiniz' + '.' + 'com');
+								</script>
 					</section>
 
 				<!-- Footer -->
