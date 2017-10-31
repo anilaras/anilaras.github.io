@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Anıl ARAS</title>
+		<meta charset="utf-8" />
+		<meta name="theme-color" content="#2196f3">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+          
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5383694493579845",
+    enable_page_level_ads: true
+  });
+</script>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+			<p><a href="/blog" class="buton">blog</a></p>
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img id="av" src="images/avatar.jpg" alt="" /></span>
+							<h1 id="isim">Anıl ARAS</h1>
+							<p id="meslek">Computer Engineer</p>
+						</header>
+						<!--
+						<hr />
+						<h2>Burası Henuz Çalışmıyor</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="https://github.com/anilaras/" class="fa fa-git">Github</a></li>
+								<li><a href="http://steamcommunity.com/id/mrb2g" class="fa fa-steam">Steam</a></li>
+								<li><a href="mailto:anilaras1@gmail.com" class="fa fa-envelope-o">Mail</a></li>
+								<li><a href="https://www.facebook.com/anilaras97" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li></li>
+							<li> <a href=""></a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			
+var currentTime = new Date().getHours();
+if (7 <= currentTime && currentTime < 20) {
+    if (document.body) {
+        document.body.background = "./images/bg.jpg";
+    }
+}
+else {
+    if (document.body) {
+        document.body.background = "./images/bg-night.jpg";
+    }
+}
+
+document.onkeydown = checkKey;
+    var kanomicode = 0;
+
+	function clear(){
+		document.body.background="./images/bg.jpg";
+		document.getElementById("main").style.visibility = "visible";
+	}
+function checkKey(e) {
+
+    e = e || window.event;
+
+    if (e.keyCode == '38') {
+        document.getElementById("meslek").innerHTML = "up arrow!";
+        kanomicode += 2;
+    }
+    else if (e.keyCode == '40') {
+        document.getElementById("meslek").innerHTML = "down arrow!";
+        kanomicode += 3;
+    }
+    else if (e.keyCode == '37') {
+        document.getElementById("meslek").innerHTML = "left arrow!";
+        kanomicode += 4;
+    }
+    else if (e.keyCode == '39') {
+        document.getElementById("meslek").innerHTML = "right arrow!";
+        kanomicode += 5;
+    }
+    else if (e.keyCode == '65') {
+        document.getElementById("meslek").innerHTML = "A";
+        kanomicode += 6;
+    }
+    else if (e.keyCode == '66') {
+        document.getElementById("meslek").innerHTML = "B";
+        kanomicode += 7;
+    }
+    else if (e.keyCode == '13') {
+        document.getElementById("meslek").innerHTML = "Start";
+        kanomicode += 8;
+    }
+    console.log(kanomicode);
+
+    if (kanomicode == 49){
+		
+		document.body.background="./images/pse.png";
+		document.getElementById("main").style.visibility = "hidden";
+		kanomicode = 0;
+		setTimeout(function(){document.body.background="./images/bg.jpg";
+		document.getElementById("main").style.visibility = "visible";
+	} , 3000);
+    }
+
+	
+}
+
+</script>
+
+	</body>
+</html>
