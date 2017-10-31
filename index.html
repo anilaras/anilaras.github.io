@@ -162,10 +162,16 @@ function checkKey(e) {
 		document.body.background="./images/pse.png";
 		document.getElementById("main").style.visibility = "hidden";
 		kanomicode = 0;
+		document.getElementById("meslek").innerHTML = "Computer Engineer";
 		setTimeout(function(){document.body.background="./images/bg.jpg";
 		document.getElementById("main").style.visibility = "visible";
 	} , 3000);
     }
+	else if (kanomicode > 50) {
+		kanomicode = 0;
+		document.getElementById("meslek").innerHTML = "Computer Engineer";
+
+	}
 
 	
 }
