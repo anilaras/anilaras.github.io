@@ -36,7 +36,7 @@
 							<p id="meslek">Computer Engineer</p>
 						</header>
 						
-						<hr />
+						
 						
 
 						<footer>
@@ -47,8 +47,11 @@
 								<li><a href="https://www.facebook.com/anilaras97" class="fa-facebook">Facebook</a></li>
 							</ul>
 						</footer>
-
-						<h2>İLETİŞİM FORMU</h2>
+						<hr />
+						<button onclick="myFunction()" >İLETİŞİM FORMUNU AÇ</button>
+						
+						<div id="iletisim" style="display:none">
+								<br>
 						<form id="iletisim" method="POST">
 								<div class="field">
 								<input type="text" name="isim" placeholder="İSMİNİZ">
@@ -71,8 +74,20 @@
 								var iletisim = document.getElementById('iletisim');
 								iletisim.setAttribute('action', '//formspree.io/' + 'anilaras1' + '@' + 'gmail' + '.' + 'com');
 								</script>
+						</div>
 					</section>
-
+					<script>
+							function myFunction() {
+								var x = document.getElementById("iletisim");
+								if (x.style.display === "none") {
+									x.style.display = "block";
+								} else {
+									x.style.display = "none";
+								}
+							}
+							</script>
+							
+							
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
@@ -167,3 +182,4 @@ function checkKey(e) {
 
 	</body>
 </html>
+
