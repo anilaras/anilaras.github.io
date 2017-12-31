@@ -18,7 +18,12 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+	#butblog{
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		z-index: 1;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
