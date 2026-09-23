@@ -1,0 +1,24 @@
+{
+    "version":  "0.1.5",
+    "publisher":  "AASoftware",
+    "architecture":  "x64",
+    "scope":  "CurrentUser",
+    "appId":  "{6ACB1D14-B315-40EB-BE8F-A13D2BF09AC0}",
+    "displayName":  "MQTT Workbench",
+    "silentParameters":  "/VERYSILENT /SUPPRESSMSGBOXES /SP- /NORESTART /RESTARTEXITCODE=3010",
+    "signature":  "NotSigned",
+    "storeMode":  false,
+    "storeCertification":  "NotPerformed",
+    "payloadDirectory":  "C:\\Users\\anil\\Documents\\Development\\Desktop\\MQTTterm\\artifacts\\publish\\win-x64-4ec9103bc47c41db82672ff896e72ec8",
+    "payloadPeFileCount":  233,
+    "files":  [
+                  {
+                      "file":  "MQTT-Workbench-0.1.5-win-x64.zip",
+                      "sha256":  "d630206f4bc0f9ab691f4c65b6b9136de6b04d405fc47e776a1bdcbe19c09420"
+                  },
+                  {
+                      "file":  "MQTT-Workbench-0.1.5-win-x64-setup.exe",
+                      "sha256":  "b293ad8235c8c103c6dd49e0bf3b2c0985541ecdd3160b5266ba77030e202a00"
+                  }
+              ]
+}
